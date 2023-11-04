@@ -44,6 +44,13 @@ Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
    ```bash
    npm install
    
+3. Configure Supabase:
+   <ul>
+     <li>Set up a Supabase project and obtain your API credentials.</li>
+   <li>Create tables for users, profiles, and links in your Supabase project.</li>
+   </ul>
+  
+   
 ## Getting Started
 
 First, run the development server:
