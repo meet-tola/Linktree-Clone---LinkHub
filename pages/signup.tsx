@@ -103,8 +103,8 @@ export default function Signup() {
 
             <button
               type="submit"
-              className="px-5 py-2 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform bg-transparent rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
-            >
+              className="px-4 py-2 ml-3 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
+              >
               Sign up
             </button>
           </form>
