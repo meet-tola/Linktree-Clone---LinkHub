@@ -1,40 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linktree Clone - LinkHub with Next.js, React, TypeScript, and Supabase [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40tola)](https://twitter.com/meet-tola)
 
-## Getting Started
+<p align="center">
+  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/linktree.png?raw=true" alt="Next js starter banner"></a>
+</p>
 
-First, run the development server:
+Welcome to the Linkhub project! This project is a demonstration of how to build a web application similar to Linktree, where users can create a simple landing page with links to their social profiles and other websites. The project utilizes Next.js, React, TypeScript, and Supabase for its development. Through this project, you will learn how to set up user authentication, store user data, and create dynamic user profiles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### DEMO
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+[![Nextjs Landing Page Template Screenshot](public/assets/images/linktree-clone-link-hub.png?raw=true)](https://linktree-clone-link-hub.vercel.app/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **User Authentication**: Implement a secure authentication system allowing users to sign up and log in to manage their profiles and links.
 
-## Learn More
+2. **Profile Creation**: Users can add a profile picture, a title, and links to their landing page. Profile details are stored in Supabase.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Link Management**: Users can add links with titles and URLs. The links are displayed on the user's profile page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Automatic Link Icon Generation**: Automatically fetch and display icons for the links based on their URLs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Profile Picture Upload**: Users can upload a profile picture to personalize their landing page.
 
-## Deploy on Vercel
+6. **User Profiles**: Each user has their own public landing page with a profile picture and links. Other users can visit and view these profiles.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+7. **Edit Profile (Authenticated Users)**: Authenticated users can edit their profile details, including the profile picture, title, and links.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+8. **Error Handling**: The project demonstrates how to handle various error scenarios gracefully.
+
+9. **Supabase Integration**: Learn how to configure and integrate Supabase for user data storage and retrieval.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/linktree-clone.git
+   cd linktree-clone
+
+2. Install dependencies:
+   ```bash
+   npm install
+   
+3. Configure Supabase:
+  - Set up a Supabase project and obtain your API credentials.
+  - Create tables for users, profiles, and links in your Supabase project.
+
+4. Create a .env.local file in the project root and add your Supabase credentials:
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+
+5. Start the development server:
+   npm run dev
+  
+   
+## Usage
+
+- Visit the application in your browser at http://localhost:3000.
+- Sign up or log in to create and manage your profile and links.
+- Edit your profile and links as needed.
+- Share your profile link with others!
+
+Follow me on [Twitter](http://twitter/meet-tola)
