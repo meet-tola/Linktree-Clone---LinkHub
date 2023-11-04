@@ -39,6 +39,10 @@ Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
    ```bash
    git clone https://github.com/yourusername/linktree-clone.git
    cd linktree-clone
+
+2. Install dependencies:
+   ```bash
+   npm install
    
 ## Getting Started
 
