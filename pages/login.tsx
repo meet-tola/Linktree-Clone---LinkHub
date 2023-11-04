@@ -47,7 +47,7 @@ export default function Login() {
   return (
     <div>
       <div className="min-h-screen flex items-center justify-center">
-      <div className="p-4 sm:p-8 w-full sm:w-[500px]">          <h2 className="text-2xl font-semibold mb-4">Login</h2>
+      <div className="p-4 sm:p-8 w-full sm:w-[400px] md:w-[500px]">          <h2 className="text-2xl font-semibold mb-4">Login</h2>
           <form
             onSubmit={(e) => {
               e.preventDefault(); // Prevent the default form submission behavior

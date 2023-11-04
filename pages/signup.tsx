@@ -40,7 +40,7 @@ export default function Signup() {
   return (
     <div>
       <div className="min-h-screen flex items-center justify-center">
-        <div className="p-8 w-full sm:w-[500px]">
+        <div className="p-8 w-full sm:w-[400px] md:w-[500px] ">
           <h2 className="text-2xl font-semibold mb-4">Sign Up</h2>
           <form
             onSubmit={(e) => {
