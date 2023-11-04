@@ -54,6 +54,7 @@ Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 5. Start the development server:
+   ```bash
    npm run dev
   
    
