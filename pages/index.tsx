@@ -12,7 +12,7 @@ export default function Home() {
       <span className="ml-3 text-3xl">Linkhub</span>
     </div>
     <button
-      className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
+      className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded  block md:hidden outline-none focus:outline-none ml-auto pb-3"
       type="button"
       onClick={() => setNavbarOpen(!navbarOpen)}
     >
@@ -52,7 +52,7 @@ export default function Home() {
     <div className="mt-2 ml-3 lg:ml-0">
     <Link
       href="/login"
-      className="px-5 py-2 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform bg-transparent rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
+      className="px-5 py-2 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
     >
       Login
     </Link>
@@ -77,13 +77,13 @@ export default function Home() {
           <div className="mt-6 flex justify-center">
           <Link
                 href="/login"
-                className="px-5 py-2 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform bg-transparent rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
+                className="px-5 py-2 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
               >
                 Login
               </Link>
               <Link
                 href="/signup"
-                className="px-4 py-2 ml-3 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform bg-transparent rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
+                className="px-4 py-2 ml-3 text-sm font-semibold text-gray-900 bg-gray-100 transition duration-500 ease-in-out transform rounded-lg hover:text-gray-200 focus:text-gray-900 hover:bg-blue-600 focus:outline-none focus:shadow-outline no-underline"
               >
                 Signup
               </Link>
