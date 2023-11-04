@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linktree Clone - LinkHub with Next.js, React, TypeScript, and Supabase [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40meet-tola)](https://twitter.com/meet-tola)
+
+<p align="center">
+  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/linktree.png?raw=true" alt="Next js starter banner"></a>
+</p>
+
+Welcome to the Linkhub project! This project is a demonstration of how to build a web application similar to Linktree, where users can create a simple landing page with links to their social profiles and other websites. The project utilizes Next.js, React, TypeScript, and Supabase for its development. Through this project, you will learn how to set up user authentication, store user data, and create dynamic user profiles.
+
+
+### DEMO
+
+[![Nextjs Landing Page Template Screenshot](public/assets/images/linktree-clone-link-hub.png?raw=true)](https://linktree-clone-link-hub.vercel.app/)
+
+Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
 
 ## Getting Started
 
