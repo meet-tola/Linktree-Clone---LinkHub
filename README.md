@@ -1,4 +1,4 @@
-# Linktree Clone - LinkHub with Next.js, React, TypeScript, and Supabase [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40meet-tola)](https://twitter.com/meet-tola)
+# Linktree Clone - LinkHub with Next.js, React, TypeScript, and Supabase [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
   <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/linktree.png?raw=true" alt="Next js starter banner"></a>
