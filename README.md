@@ -33,6 +33,13 @@ Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
 
 9. **Supabase Integration**: Learn how to configure and integrate Supabase for user data storage and retrieval.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/linktree-clone.git
+   cd linktree-clone
+   
 ## Getting Started
 
 First, run the development server:
