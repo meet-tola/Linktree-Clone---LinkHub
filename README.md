@@ -13,6 +13,26 @@ Welcome to the Linkhub project! This project is a demonstration of how to build 
 
 Check out our [live demo](https://linktree-clone-link-hub.vercel.app/).
 
+## Features
+
+1. **User Authentication**: Implement a secure authentication system allowing users to sign up and log in to manage their profiles and links.
+
+2. **Profile Creation**: Users can add a profile picture, a title, and links to their landing page. Profile details are stored in Supabase.
+
+3. **Link Management**: Users can add links with titles and URLs. The links are displayed on the user's profile page.
+
+4. **Automatic Link Icon Generation**: Automatically fetch and display icons for the links based on their URLs.
+
+5. **Profile Picture Upload**: Users can upload a profile picture to personalize their landing page.
+
+6. **User Profiles**: Each user has their own public landing page with a profile picture and links. Other users can visit and view these profiles.
+
+7. **Edit Profile (Authenticated Users)**: Authenticated users can edit their profile details, including the profile picture, title, and links.
+
+8. **Error Handling**: The project demonstrates how to handle various error scenarios gracefully.
+
+9. **Supabase Integration**: Learn how to configure and integrate Supabase for user data storage and retrieval.
+
 ## Getting Started
 
 First, run the development server:
