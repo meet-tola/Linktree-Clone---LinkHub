@@ -14,7 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       screens: {
-        'sm': '375px', // Define your custom 'sm' breakpoint value
+        'sm': '375px', 
+        'sd': '640px', // Define your custom 'sm' breakpoint value
       },
     },
   },

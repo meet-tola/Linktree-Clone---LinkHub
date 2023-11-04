@@ -186,7 +186,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="p-4 sm:p-8 w-full sm:w-[500px]">
+      <div className="p-4 sd:p-8 w-full sd:w-[500px] sm:w-[400px]">
         <div className="flex justify-center">
           {profilePictureUrl && (
             <Image
